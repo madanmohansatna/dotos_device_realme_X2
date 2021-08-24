@@ -63,6 +63,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     BluetoothQti
 
+# Gcam
+PRODUCT_PACKAGES += \
+    GoogleCameraGo
+
 # Camera
 PRODUCT_PACKAGES += \
     Snap
@@ -111,6 +115,12 @@ PRODUCT_PACKAGES += \
     android.hidl.manager@1.0_system \
     libhidltransport \
     libhwbinder
+
+
+# Freeform Multiwindow
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.software.freeform_window_management.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.freeform_window_management.xml
+
 
 #Hardware
 PRODUCT_COPY_FILES += \
@@ -241,3 +251,6 @@ PRODUCT_PACKAGES += \
 # Touch
 PRODUCT_PACKAGES += \
     lineage.touch@1.0-service.x2
+
+SPARK_BUILD_TYPE := Official
+SPARK_BUILD_VARIANT := gapps
