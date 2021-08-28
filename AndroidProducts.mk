@@ -15,10 +15,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_X2.mk
+    $(LOCAL_DIR)/dot_X2.mk
 
 
 COMMON_LUNCH_CHOICES := \
-    spark_X2-eng \
-    spark_X2-user \
-    spark_X2-userdebug
+    dot_X2-eng \
+    dot_X2-user \
+    dot_X2-userdebug

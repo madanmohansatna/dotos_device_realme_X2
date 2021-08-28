@@ -7,7 +7,7 @@
 $(call inherit-product, device/realme/X2/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/spark/config/common_full_phone.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
@@ -18,7 +18,7 @@ TARGET_INCLUDE_WIFI_EXT := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := spark_X2
+PRODUCT_NAME := dot_X2
 PRODUCT_DEVICE := X2
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme X2
