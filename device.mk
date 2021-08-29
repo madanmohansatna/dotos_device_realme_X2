@@ -68,7 +68,7 @@ PRODUCT_PACKAGES += \
     GoogleCameraGo
 
 # Camera
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     Snap
 
 # Common init scripts
@@ -251,6 +251,3 @@ PRODUCT_PACKAGES += \
 # Touch
 PRODUCT_PACKAGES += \
     lineage.touch@1.0-service.x2
-
-SPARK_BUILD_TYPE := Official
-SPARK_BUILD_VARIANT := gapps
