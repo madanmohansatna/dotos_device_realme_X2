@@ -33,6 +33,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Properties
 -include $(LOCAL_PATH)/product_props.mk
+#-include $(LOCAL_PATH)/vendor_props.mk
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # Screen density
@@ -68,7 +69,7 @@ PRODUCT_PACKAGES += \
     GoogleCameraGo
 
 # Camera
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     Snap
 
 # Common init scripts
