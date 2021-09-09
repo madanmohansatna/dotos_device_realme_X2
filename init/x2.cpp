@@ -90,7 +90,7 @@ void setRMX(const unsigned int variant)
 
     //RMX1991
     prop[0] = {
-        "google/redfin/redfin:11/RQ3A.210905.001/7474174:user/release-keys",
+        "google/redfin/redfin:11/RQ3A.210905.001/7511028:user/release-keys",
         "redfin-user 11 RQ3A.210905.001 7511028 release-keys",
         "RMX1991",
         "RMX1991CN",
@@ -98,19 +98,18 @@ void setRMX(const unsigned int variant)
 
     //RMX1992
     prop[1] = {
-        "google/redfin/redfin:11/RQ3A.210905.001/7474174:user/release-keys",
+        "google/redfin/redfin:11/RQ3A.210905.001/7511028:user/release-keys",
         "redfin-user 11 RQ3A.210905.001 7511028 release-keys",
-
         "RMX1992",
         "RMX1992L1",
     };
 
     //RMX1993
     prop[2] = {
-        "google/redfin/redfin:11/RQ3A.210905.001/7474174:user/release-keys",
+        "google/redfin/redfin:11/RQ3A.210905.001/7511028:user/release-keys",
         "redfin-user 11 RQ3A.210905.001 7511028 release-keys",
         "RMX1993",
-        "RMX1993L1",
+        "RMX1993L1",        
     };
 
     const auto set_ro_build_prop = [](const std::string &source,
